@@ -1,0 +1,19 @@
+{
+  "name": "translate-sass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "https-proxy-agent": "^9.1.0",
+    "jspdf": "^4.2.1",
+    "openai": "^6.45.0",
+    "puppeteer": "^22.10.0"
+  }
+}
