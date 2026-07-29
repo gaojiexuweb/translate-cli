@@ -9,8 +9,7 @@ async function main() {
   const browser = await puppeteer.launch(PUPPETEER_CONFIG);
   const page = await browser.newPage();
 
-  const url = "https://kd-test.damddos.com:10075/pdf/?userId=1699386391221035010&t=1782359705954&ticket=ce3326092a09498d9f4e6fa5a750895a&data=%7B%22reportType%22%3A%22R03%22%2C%22monthlyRequest%22%3A%7B%22reportId%22%3A%2225080%22%2C%22customerId%22%3A%221726775503980777473%22%7D%7D&templateId=139&contenteditable";
-
+  const url = ""
   await page.goto(url, {
     waitUntil: "networkidle2",
     timeout: 180000,
